@@ -1,5 +1,6 @@
 
-import arrayofdouble as a
+
+from context import arrayofdouble as a
 
 a1 = a.ArrayOfDouble(3, 17) # dimension = 3, all values = 17.0
 print ("a1 = " + str(a1.display()))
